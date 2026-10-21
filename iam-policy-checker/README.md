@@ -10,7 +10,7 @@ is ever deployed.
 
 ## Install
 
-Requires Python 3.9 or newer.
+Requires Python 3.9 or newer. Run these from the `iam-policy-checker/` folder.
 
 ```bash
 pip install -e .            # installs the iam-policy-checker command
@@ -128,6 +128,7 @@ validation alongside it for authoritative checks.
 ## Development
 
 ```bash
+cd iam-policy-checker
 pip install -e ".[test]"
 pytest
 ```

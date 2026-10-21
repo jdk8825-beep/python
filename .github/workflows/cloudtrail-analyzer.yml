@@ -1,0 +1,29 @@
+name: cloudtrail-analyzer
+
+on:
+  push:
+    branches: [main]
+    paths: ["cloudtrail-analyzer/**", ".github/workflows/cloudtrail-analyzer.yml"]
+  pull_request:
+    paths: ["cloudtrail-analyzer/**", ".github/workflows/cloudtrail-analyzer.yml"]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: cloudtrail-analyzer
+    strategy:
+      matrix:
+        python-version: ["3.9", "3.11", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: pip install -e ".[test]"
+      - run: pytest -q
+      - name: Smoke-test the CLI on the sample logs
+        run: |
+          cloudtrail-analyzer samples/benign_activity.json --fail-on medium
+          ! cloudtrail-analyzer samples/compromised_credentials.json --fail-on critical

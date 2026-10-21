@@ -1,0 +1,661 @@
+{
+  "Records": [
+    {
+      "eventVersion": "1.10",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAALICEXXXEXAMPLE",
+        "arn": "arn:aws:iam::111122223333:user/alice",
+        "accountId": "111122223333",
+        "accessKeyId": "AKIAALICEEXAMPLE0001",
+        "userName": "alice"
+      },
+      "eventTime": "2026-10-14T09:00:00Z",
+      "eventSource": "signin.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "192.0.2.10",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "requestParameters": null,
+      "responseElements": {
+        "ConsoleLogin": "Success"
+      },
+      "requestID": "6513270e-269e-0d37-f2a7-4de452e6b438",
+      "eventID": "d23f0824-128b-2f33-0c5c-7fd0a6a3a450",
+      "readOnly": false,
+      "eventType": "AwsApiCall",
+      "managementEvent": true,
+      "recipientAccountId": "111122223333",
+      "eventCategory": "Management",
+      "additionalEventData": {
+        "LoginTo": "https://console.aws.amazon.com/console/home",
+        "MobileVersion": "No",
+        "MFAUsed": "Yes"
+      }
+    },
+    {
+      "eventVersion": "1.10",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAALICEXXXEXAMPLE",
+        "arn": "arn:aws:iam::111122223333:user/alice",
+        "accountId": "111122223333",
+        "accessKeyId": "AKIAALICEEXAMPLE0001",
+        "userName": "alice"
+      },
+      "eventTime": "2026-10-14T09:02:00Z",
+      "eventSource": "ec2.amazonaws.com",
+      "eventName": "DescribeInstances",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "192.0.2.10",
+      "userAgent": "console.amazonaws.com",
+      "requestParameters": null,
+      "responseElements": null,
+      "requestID": "9531985d-5d9d-c9f8-1818-e811892f902b",
+      "eventID": "36f675cc-81e7-4ef5-e8e2-5d940ed90475",
+      "readOnly": true,
+      "eventType": "AwsApiCall",
+      "managementEvent": true,
+      "recipientAccountId": "111122223333",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.10",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAALICEXXXEXAMPLE",
+        "arn": "arn:aws:iam::111122223333:user/alice",
+        "accountId": "111122223333",
+        "accessKeyId": "AKIAALICEEXAMPLE0001",
+        "userName": "alice"
+      },
+      "eventTime": "2026-10-14T09:03:00Z",
+      "eventSource": "ec2.amazonaws.com",
+      "eventName": "DescribeSecurityGroups",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "192.0.2.10",
+      "userAgent": "console.amazonaws.com",
+      "requestParameters": null,
+      "responseElements": null,
+      "requestID": "6b0d549b-6f03-675a-1600-a35a099950d8",
+      "eventID": "8d116ece-1738-f7d9-3d9c-172411e20b8f",
+      "readOnly": true,
+      "eventType": "AwsApiCall",
+      "managementEvent": true,
+      "recipientAccountId": "111122223333",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.10",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAALICEXXXEXAMPLE",
+        "arn": "arn:aws:iam::111122223333:user/alice",
+        "accountId": "111122223333",
+        "accessKeyId": "AKIAALICEEXAMPLE0001",
+        "userName": "alice"
+      },
+      "eventTime": "2026-10-14T09:04:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ListBuckets",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "192.0.2.10",
+      "userAgent": "console.amazonaws.com",
+      "requestParameters": null,
+      "responseElements": null,
+      "requestID": "90c192cf-d3ac-94af-0f21-ddb66cad4a26",
+      "eventID": "a170b338-3926-3059-f28c-105d1fb17c23",
+      "readOnly": true,
+      "eventType": "AwsApiCall",
+      "managementEvent": true,
+      "recipientAccountId": "111122223333",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.10",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAALICEXXXEXAMPLE",
+        "arn": "arn:aws:iam::111122223333:user/alice",
+        "accountId": "111122223333",
+        "accessKeyId": "AKIAALICEEXAMPLE0001",
+        "userName": "alice"
+      },
+      "eventTime": "2026-10-14T09:05:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetBucketPolicy",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "192.0.2.10",
+      "userAgent": "console.amazonaws.com",
+      "requestParameters": null,
+      "responseElements": null,
+      "requestID": "0fd630f1-f29d-0da9-953f-48f1a09f76b5",
+      "eventID": "0cb1e29c-658c-da14-95e6-0af593bd04cf",
+      "readOnly": true,
+      "eventType": "AwsApiCall",
+      "managementEvent": true,
+      "recipientAccountId": "111122223333",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.10",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAALICEXXXEXAMPLE",
+        "arn": "arn:aws:iam::111122223333:user/alice",
+        "accountId": "111122223333",
+        "accessKeyId": "AKIAALICEEXAMPLE0001",
+        "userName": "alice"
+      },
+      "eventTime": "2026-10-14T09:06:00Z",
+      "eventSource": "cloudtrail.amazonaws.com",
+      "eventName": "DescribeTrails",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "192.0.2.10",
+      "userAgent": "console.amazonaws.com",
+      "requestParameters": null,
+      "responseElements": null,
+      "requestID": "8e81973e-0bec-d7b0-3898-d190f9ebdacc",
+      "eventID": "6b4cb242-4a23-d596-2217-beaddbc496cb",
+      "readOnly": true,
+      "eventType": "AwsApiCall",
+      "managementEvent": true,
+      "recipientAccountId": "111122223333",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.10",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAALICEXXXEXAMPLE",
+        "arn": "arn:aws:iam::111122223333:user/alice",
+        "accountId": "111122223333",
+        "accessKeyId": "AKIAALICEEXAMPLE0001",
+        "userName": "alice"
+      },
+      "eventTime": "2026-10-14T09:10:00Z",
+      "eventSource": "ec2.amazonaws.com",
+      "eventName": "AuthorizeSecurityGroupIngress",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "192.0.2.10",
+      "userAgent": "aws-cli/2.17.0 Python/3.12",
+      "requestParameters": {
+        "groupId": "sg-0a1b2c3d4e5f60001",
+        "ipPermissions": {
+          "items": [
+            {
+              "ipProtocol": "tcp",
+              "fromPort": 5432,
+              "toPort": 5432,
+              "ipRanges": {
+                "items": [
+                  {
+                    "cidrIp": "10.0.0.0/16",
+                    "description": "app subnet"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "responseElements": {
+        "_return": true
+      },
+      "requestID": "92276658-1e27-a1c0-8a6a-63ec24ede6a4",
+      "eventID": "ae97ba94-d0ed-a82f-8f6d-05584ef8aa38",
+      "readOnly": false,
+      "eventType": "AwsApiCall",
+      "managementEvent": true,
+      "recipientAccountId": "111122223333",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.10",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAALICEXXXEXAMPLE",
+        "arn": "arn:aws:iam::111122223333:user/alice",
+        "accountId": "111122223333",
+        "accessKeyId": "AKIAALICEEXAMPLE0001",
+        "userName": "alice"
+      },
+      "eventTime": "2026-10-14T09:12:00Z",
+      "eventSource": "ec2.amazonaws.com",
+      "eventName": "AuthorizeSecurityGroupIngress",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "192.0.2.10",
+      "userAgent": "aws-cli/2.17.0 Python/3.12",
+      "requestParameters": {
+        "groupId": "sg-0a1b2c3d4e5f60002",
+        "ipPermissions": {
+          "items": [
+            {
+              "ipProtocol": "tcp",
+              "fromPort": 443,
+              "toPort": 443,
+              "ipRanges": {
+                "items": [
+                  {
+                    "cidrIp": "0.0.0.0/0",
+                    "description": "public HTTPS load balancer"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "responseElements": {
+        "_return": true
+      },
+      "requestID": "923a7369-94e3-bf91-1a61-dbe22e44158b",
+      "eventID": "18f135d2-5f55-7203-3018-50c5a38fd547",
+      "readOnly": false,
+      "eventType": "AwsApiCall",
+      "managementEvent": true,
+      "recipientAccountId": "111122223333",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.10",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AROAEXAMPLEROLE:deploy",
+        "arn": "arn:aws:sts::111122223333:assumed-role/github-deploy/deploy",
+        "accountId": "111122223333",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "AROAEXAMPLEROLE",
+            "arn": "arn:aws:iam::111122223333:role/github-deploy",
+            "accountId": "111122223333",
+            "userName": "github-deploy"
+          }
+        }
+      },
+      "eventTime": "2026-10-14T09:20:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "PutBucketPolicy",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "140.82.112.4",
+      "userAgent": "aws-cli/2.17.0 Python/3.12",
+      "requestParameters": {
+        "bucketName": "acme-static-assets",
+        "bucketPolicy": {
+          "Version": "2012-10-17",
+          "Statement": [
+            {
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "cloudfront.amazonaws.com"
+              },
+              "Action": "s3:GetObject",
+              "Resource": "arn:aws:s3:::acme-static-assets/*"
+            }
+          ]
+        }
+      },
+      "responseElements": null,
+      "requestID": "907a70c3-1012-f037-b64c-e4228c38fb29",
+      "eventID": "7f150524-34b9-b5df-9e77-69b10f4205b4",
+      "readOnly": false,
+      "eventType": "AwsApiCall",
+      "managementEvent": true,
+      "recipientAccountId": "111122223333",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.10",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDABOBXXXXXEXAMPLE",
+        "arn": "arn:aws:iam::111122223333:user/bob",
+        "accountId": "111122223333",
+        "accessKeyId": "AKIABOBEXAMPLE000002",
+        "userName": "bob"
+      },
+      "eventTime": "2026-10-14T09:30:00Z",
+      "eventSource": "iam.amazonaws.com",
+      "eventName": "ListRoles",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "192.0.2.44",
+      "userAgent": "aws-cli/2.17.0 Python/3.12",
+      "requestParameters": null,
+      "responseElements": null,
+      "requestID": "c6f87718-6d76-b07e-881e-d162ae2eb154",
+      "eventID": "ec66a787-95e7-61d1-7731-af10506bf2ef",
+      "readOnly": true,
+      "eventType": "AwsApiCall",
+      "managementEvent": true,
+      "recipientAccountId": "111122223333",
+      "eventCategory": "Management",
+      "errorCode": "AccessDenied",
+      "errorMessage": "User is not authorized to perform: ListRoles"
+    },
+    {
+      "eventVersion": "1.10",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDABOBXXXXXEXAMPLE",
+        "arn": "arn:aws:iam::111122223333:user/bob",
+        "accountId": "111122223333",
+        "accessKeyId": "AKIABOBEXAMPLE000002",
+        "userName": "bob"
+      },
+      "eventTime": "2026-10-14T09:31:00Z",
+      "eventSource": "iam.amazonaws.com",
+      "eventName": "ListRoles",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "192.0.2.44",
+      "userAgent": "aws-cli/2.17.0 Python/3.12",
+      "requestParameters": null,
+      "responseElements": null,
+      "requestID": "3f98e277-4cbd-87ad-5c90-a9587403e430",
+      "eventID": "c7a2ea20-b2f1-4c94-2e05-319acb5c7427",
+      "readOnly": true,
+      "eventType": "AwsApiCall",
+      "managementEvent": true,
+      "recipientAccountId": "111122223333",
+      "eventCategory": "Management",
+      "errorCode": "AccessDenied",
+      "errorMessage": "User is not authorized to perform: ListRoles"
+    },
+    {
+      "eventVersion": "1.10",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDABOBXXXXXEXAMPLE",
+        "arn": "arn:aws:iam::111122223333:user/bob",
+        "accountId": "111122223333",
+        "accessKeyId": "AKIABOBEXAMPLE000002",
+        "userName": "bob"
+      },
+      "eventTime": "2026-10-14T09:32:00Z",
+      "eventSource": "iam.amazonaws.com",
+      "eventName": "ListRoles",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "192.0.2.44",
+      "userAgent": "aws-cli/2.17.0 Python/3.12",
+      "requestParameters": null,
+      "responseElements": null,
+      "requestID": "4cdd2055-930d-6eaf-14f4-733f3e7d1bfb",
+      "eventID": "57ee05cd-e009-02c7-7ebf-f20686734721",
+      "readOnly": true,
+      "eventType": "AwsApiCall",
+      "managementEvent": true,
+      "recipientAccountId": "111122223333",
+      "eventCategory": "Management",
+      "errorCode": "AccessDenied",
+      "errorMessage": "User is not authorized to perform: ListRoles"
+    },
+    {
+      "eventVersion": "1.10",
+      "userIdentity": {
+        "type": "AWSService",
+        "invokedBy": "ec2.amazonaws.com"
+      },
+      "eventTime": "2026-10-14T09:40:00Z",
+      "eventSource": "sts.amazonaws.com",
+      "eventName": "AssumeRole",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "ec2.amazonaws.com",
+      "userAgent": "aws-cli/2.17.0 Python/3.12",
+      "requestParameters": {
+        "roleArn": "arn:aws:iam::111122223333:role/web-instance",
+        "roleSessionName": "i-0123456789abcdef0"
+      },
+      "responseElements": null,
+      "requestID": "9be4bcfc-49b6-4a08-72e6-cc3ababced20",
+      "eventID": "830e07bc-1e39-8f10-12bd-4acefaecbd38",
+      "readOnly": false,
+      "eventType": "AwsApiCall",
+      "managementEvent": true,
+      "recipientAccountId": "111122223333",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.10",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AROAEXAMPLEROLE:deploy",
+        "arn": "arn:aws:sts::111122223333:assumed-role/github-deploy/deploy",
+        "accountId": "111122223333",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "AROAEXAMPLEROLE",
+            "arn": "arn:aws:iam::111122223333:role/github-deploy",
+            "accountId": "111122223333",
+            "userName": "github-deploy"
+          }
+        }
+      },
+      "eventTime": "2026-10-14T10:00:00Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "UpdateFunctionCode20150331v2",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "140.82.112.4",
+      "userAgent": "aws-cli/2.17.0 Python/3.12",
+      "requestParameters": {
+        "functionName": "orders-api"
+      },
+      "responseElements": null,
+      "requestID": "5790f82e-c1d3-fcff-2a3a-f4d46b0a18e8",
+      "eventID": "6bf46c69-7d2c-af82-eeea-cbe226e87555",
+      "readOnly": false,
+      "eventType": "AwsApiCall",
+      "managementEvent": true,
+      "recipientAccountId": "111122223333",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.10",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AROAEXAMPLEROLE:deploy",
+        "arn": "arn:aws:sts::111122223333:assumed-role/github-deploy/deploy",
+        "accountId": "111122223333",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "AROAEXAMPLEROLE",
+            "arn": "arn:aws:iam::111122223333:role/github-deploy",
+            "accountId": "111122223333",
+            "userName": "github-deploy"
+          }
+        }
+      },
+      "eventTime": "2026-10-14T10:05:00Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "UpdateFunctionCode20150331v2",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "140.82.112.4",
+      "userAgent": "aws-cli/2.17.0 Python/3.12",
+      "requestParameters": {
+        "functionName": "orders-api"
+      },
+      "responseElements": null,
+      "requestID": "13deef86-ab10-31d0-f646-e1f40a097c97",
+      "eventID": "ca02135e-92b1-d3f2-8ede-0d7ac3baea9e",
+      "readOnly": false,
+      "eventType": "AwsApiCall",
+      "managementEvent": true,
+      "recipientAccountId": "111122223333",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.10",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AROAEXAMPLEROLE:deploy",
+        "arn": "arn:aws:sts::111122223333:assumed-role/github-deploy/deploy",
+        "accountId": "111122223333",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "AROAEXAMPLEROLE",
+            "arn": "arn:aws:iam::111122223333:role/github-deploy",
+            "accountId": "111122223333",
+            "userName": "github-deploy"
+          }
+        }
+      },
+      "eventTime": "2026-10-14T10:10:00Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "UpdateFunctionCode20150331v2",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "140.82.112.4",
+      "userAgent": "aws-cli/2.17.0 Python/3.12",
+      "requestParameters": {
+        "functionName": "orders-api"
+      },
+      "responseElements": null,
+      "requestID": "57124242-5051-c1cc-d17f-9acae01f5057",
+      "eventID": "7f26144b-9828-9fcd-59a5-4a7bb1fee08f",
+      "readOnly": false,
+      "eventType": "AwsApiCall",
+      "managementEvent": true,
+      "recipientAccountId": "111122223333",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.10",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AROAEXAMPLEROLE:deploy",
+        "arn": "arn:aws:sts::111122223333:assumed-role/github-deploy/deploy",
+        "accountId": "111122223333",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "AROAEXAMPLEROLE",
+            "arn": "arn:aws:iam::111122223333:role/github-deploy",
+            "accountId": "111122223333",
+            "userName": "github-deploy"
+          }
+        }
+      },
+      "eventTime": "2026-10-14T10:15:00Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "UpdateFunctionCode20150331v2",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "140.82.112.4",
+      "userAgent": "aws-cli/2.17.0 Python/3.12",
+      "requestParameters": {
+        "functionName": "orders-api"
+      },
+      "responseElements": null,
+      "requestID": "119a72d1-74c9-df6a-cc01-1cdd9474031b",
+      "eventID": "451abd81-f1d6-9ed6-17f5-e837d70820fe",
+      "readOnly": false,
+      "eventType": "AwsApiCall",
+      "managementEvent": true,
+      "recipientAccountId": "111122223333",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.10",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AROAEXAMPLEROLE:deploy",
+        "arn": "arn:aws:sts::111122223333:assumed-role/github-deploy/deploy",
+        "accountId": "111122223333",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "AROAEXAMPLEROLE",
+            "arn": "arn:aws:iam::111122223333:role/github-deploy",
+            "accountId": "111122223333",
+            "userName": "github-deploy"
+          }
+        }
+      },
+      "eventTime": "2026-10-14T11:00:00Z",
+      "eventSource": "iam.amazonaws.com",
+      "eventName": "AttachRolePolicy",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "140.82.112.4",
+      "userAgent": "aws-cli/2.17.0 Python/3.12",
+      "requestParameters": {
+        "roleName": "orders-api-lambda",
+        "policyArn": "arn:aws:iam::aws:policy/AmazonDynamoDBReadOnlyAccess"
+      },
+      "responseElements": null,
+      "requestID": "10a3d6b2-aa05-e11a-b271-5945795e8229",
+      "eventID": "4f426dcb-b394-fb36-bb2d-420f0f88080b",
+      "readOnly": false,
+      "eventType": "AwsApiCall",
+      "managementEvent": true,
+      "recipientAccountId": "111122223333",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.10",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDABOBXXXXXEXAMPLE",
+        "arn": "arn:aws:iam::111122223333:user/bob",
+        "accountId": "111122223333",
+        "accessKeyId": "AKIABOBEXAMPLE000002",
+        "userName": "bob"
+      },
+      "eventTime": "2026-10-14T12:00:00Z",
+      "eventSource": "signin.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "192.0.2.44",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "requestParameters": null,
+      "responseElements": {
+        "ConsoleLogin": "Failure"
+      },
+      "requestID": "ae658f33-fe3b-890b-93f4-48b3a5aa3c81",
+      "eventID": "b774eb52-48db-40af-7215-8370d269a9a5",
+      "readOnly": false,
+      "eventType": "AwsApiCall",
+      "managementEvent": true,
+      "recipientAccountId": "111122223333",
+      "eventCategory": "Management",
+      "additionalEventData": {
+        "LoginTo": "https://console.aws.amazon.com/console/home",
+        "MobileVersion": "No",
+        "MFAUsed": "Yes"
+      },
+      "errorMessage": "Failed authentication"
+    },
+    {
+      "eventVersion": "1.10",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDABOBXXXXXEXAMPLE",
+        "arn": "arn:aws:iam::111122223333:user/bob",
+        "accountId": "111122223333",
+        "accessKeyId": "AKIABOBEXAMPLE000002",
+        "userName": "bob"
+      },
+      "eventTime": "2026-10-14T12:01:00Z",
+      "eventSource": "signin.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "192.0.2.44",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "requestParameters": null,
+      "responseElements": {
+        "ConsoleLogin": "Success"
+      },
+      "requestID": "58d5563d-ab2c-d31e-e315-128862c33a4f",
+      "eventID": "5affb229-7631-a992-f0ce-583505c6af07",
+      "readOnly": false,
+      "eventType": "AwsApiCall",
+      "managementEvent": true,
+      "recipientAccountId": "111122223333",
+      "eventCategory": "Management",
+      "additionalEventData": {
+        "LoginTo": "https://console.aws.amazon.com/console/home",
+        "MobileVersion": "No",
+        "MFAUsed": "Yes"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "iam-policy-checker"
+version = "0.1.0"
+description = "Review AWS IAM policy JSON for wildcards, privilege escalation paths and other risky permissions."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[project.scripts]
+iam-policy-checker = "iam_policy_checker.cli:main"
+
+[tool.setuptools]
+packages = ["iam_policy_checker"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

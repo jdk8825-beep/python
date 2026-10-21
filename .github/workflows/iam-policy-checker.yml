@@ -1,0 +1,29 @@
+name: iam-policy-checker
+
+on:
+  push:
+    branches: [main]
+    paths: ["iam-policy-checker/**", ".github/workflows/iam-policy-checker.yml"]
+  pull_request:
+    paths: ["iam-policy-checker/**", ".github/workflows/iam-policy-checker.yml"]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: iam-policy-checker
+    strategy:
+      matrix:
+        python-version: ["3.9", "3.11", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: pip install -e ".[test]"
+      - run: pytest -q
+      - name: Smoke-test the CLI on the fixtures
+        run: |
+          iam-policy-checker tests/fixtures/least_privilege.json --fail-on low
+          ! iam-policy-checker tests/fixtures/admin.json --fail-on critical
